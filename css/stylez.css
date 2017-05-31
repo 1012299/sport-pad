@@ -1,0 +1,23 @@
+.searchbox{
+    margin-left: 200px;
+    margin-top: 400px;
+}
+#searchBar{
+    border: 3px double #25cbaf;
+    font-size: 30px;
+    padding: 10px;
+    outline: none;
+    width: 350px;
+}
+#searchBtn{
+    border: 2px solid #25cbaf;
+    padding: 10px;
+    background: #25cbaf;
+    cursor: pointer;
+    outline: none;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+
+}
