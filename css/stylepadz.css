@@ -1,0 +1,448 @@
+html{
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+}
+.searchbox{
+    position: relative;
+    bottom: 760px;
+}
+#searchBar{
+    border: 3px double #25cbaf;
+    font-size: 24px;
+    padding: 10px;
+    outline: none;
+    width: 200px;
+    font-weight: bold;
+    color: #0a0a08;
+}
+#searchBtn {
+    border: 2px solid #25cbaf;
+    padding: 10px;
+    position: fixed;
+    background: #25cbaf;
+    cursor: pointer;
+    outline: none;
+    width: 70px;
+    height: 60px;
+    background-image: url("../sport-image/1496269117_search.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#searchBtn:hover {
+    background: #0c6ad5;
+    background-image: url("../sport-image/1496269117_search.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+#boxshadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, .5);
+    padding: 20px;
+    background: #2E2E2E;
+
+}
+
+#body{
+    margin: auto;
+    background-image: url("../sport-image/backgroundsportpad.png");
+    background-size: 1650px 890px;
+    background-repeat: no-repeat;
+
+
+}
+
+#header{
+    position:absolute;
+    top:0;
+    text-align:center;
+    width: 100%;
+    color: #fff;
+    font-size: 36px;
+    -ms-transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    height: 10px;
+
+
+}
+
+
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    /* one half of the remaining 30% */
+    height: 20px;
+    bottom: 0;
+}
+
+.dropbtn {
+    background-color: #25CABF;
+    color: white;
+    padding: 16px 60px 5px 60px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 85%;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #21B0A7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 300%;
+    text-align: left
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #25CABF;
+
+}
+
+.info{
+    box-shadow: 0 1px  0 rgba(0,0,0,0.2), 0 0 0 0 rgba(0,0,0,0.19);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+    font-size: 30%;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #21B0A7;
+}
+
+
+#footer{
+    margin-top: 50%;
+    padding: 70px;
+    background: #2E2E2E;
+    position: relative;
+
+
+}
+
+#logo{
+    height: 100px;
+    width: 140px;
+    margin-top: -5.5%;
+    position: fixed;
+    margin-left: -50%;
+}
+#bannerlogo{
+    position: fixed;
+    top: 215px;
+    left: 640px;
+}
+#box{
+    position: relative;
+    bottom: 345px;
+    width: 65%;
+    height: 100px;
+    padding-left: 5px;
+    border: 1px solid;
+    background-image: -moz-linear-gradient( 90deg, rgb(240,236,236) 0%, rgb(255,255,255) 94%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(240,236,236) 0%, rgb(255,255,255) 94%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(240,236,236) 0%, rgb(255,255,255) 94%, rgb(255,255,255) 100%);
+
+}
+.submit{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#fotos{
+    float: left;
+    margin-top:   10px;
+    padding-right: 10px;
+}
+#sportclub{
+    margin-top: 20px;
+
+
+}
+#leeftijd{
+
+    margin-top: -30px;
+}
+#sportles{
+
+    margin-top: -40px;
+}
+#postcode{
+    margin-top: -3.0%;
+    margin-right: 10px;
+    float: right;
+}
+.sub{
+    float: right;
+    margin-top: -4%;
+    margin-right: 5px;
+    background-color: #25cabf;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.sub:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.left{
+    text-align: left;
+}
+#footertext{
+    font-weight: bold;
+    font-size: 18px;
+}
+.right{
+    position: absolute;
+    left: 1120px;
+    bottom: 85px;
+}
+#comment{
+    color: #0a0a08;
+}
+* {box-sizing:border-box}
+body {
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+
+}
+.mySlides {display:none  }
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    /*background-color: #bbb;*/
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #F5F5F5;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+/*scroll bar*/
+header
+{
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+    text-align: center;
+    font-size: 25px;
+}
+
+#info
+{
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+a{
+    color: #074E8C;
+}
+
+.scrollbar
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+    height: 600px;
+    width: 100%;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow
+{
+    min-height: 450px;
+}
+
+#wrapper
+{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+#style-5::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#style-5::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-5::-webkit-scrollbar-thumb
+{
+    background-color: #F5F5F5;
+
+    background-image: -webkit-gradient(linear, 0 0, 0 100%,
+    color-stop(.5, rgba(255, 255, 255, .2)),
+    color-stop(.5, transparent), to(transparent));
+}
+
+#style-6::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+#style-6::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-6::-webkit-scrollbar-thumb
+{
+    background-color: #25cabf;
+    background-image: -webkit-linear-gradient(45deg,
+    rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent)
+}
+#logo h3 p{
+
+}
+#logo img{
+    width:100px;
+}
+.dropdown-menu li, .dropdown-menu a {
+    position: relative;
+    display: block;
+    color: #777;
+    font-family: "PT Sans",sans-serif;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style-type: none;
+}
+ul ul, ol ul {
+    list-style-type: circle;
+}
+.category{
+    position: fixed;
+    right: 950px;
+    top: 185px;
+}
+.sponsor-slide{
+    position: fixed;
+    left: 950px;
+    top: 185px;
+}
+.vereniging{
+    position: fixed;
+    top: 135px;
+    right: 120px;
+    left: 120px;
+}
