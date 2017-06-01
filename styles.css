@@ -1,0 +1,48 @@
+.top{
+	    box-shadow: 5px 2px 5px #888888;
+	    height: 90px;
+	    width: 110%;
+	    margin-left: -10%;
+
+
+
+}
+.dropdown-button{
+	margin-left: 90%;
+	margin-top: 1%;
+}
+.nxt{
+	margin-top: -5%;
+	margin-left: 4%;
+	color: black;
+	margin-left: 13%;
+	font-size: 20px;
+	opacity: 0.5;
+	font-style: italic;
+
+
+
+}
+
+.nxt2{
+	margin-left: 22%;
+	margin-top: -2.3%;
+	font-size: 20px;
+	
+}
+body ul{
+	margin-top: 10%;
+	color: black;
+}
+.Box{
+    width: 950px;
+    height: 545px;
+	box-shadow: 2px 2px 5px #888888;
+    margin-top: 5.5%;
+    margin-left: 25%;
+
+}
+
+body .row{
+	margin-top: -7%;
+}

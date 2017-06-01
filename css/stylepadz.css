@@ -3,7 +3,7 @@ html{
 }
 .searchbox{
     position: relative;
-    bottom: 760px;
+    bottom: 720px;
 }
 #searchBar{
     border: 3px double #25cbaf;

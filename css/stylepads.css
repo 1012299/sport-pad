@@ -1,9 +1,6 @@
-html{
-    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
-}
 .searchbox{
     position: relative;
-    bottom: 760px;
+    bottom: 740px;
 }
 #searchBar{
     border: 3px double #25cbaf;

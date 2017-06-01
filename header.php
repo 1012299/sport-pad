@@ -8,7 +8,7 @@
     <meta name="description" content="Search enigen for sport assiocations">
     <meta name="author" content="Team 7">
     <meta name="copyright" content="copyright">
-    <link rel="stylesheet" href="css/stylepadz.css">
+    <link rel="stylesheet" href="css/stylepads.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="css/animated.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -18,32 +18,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>sport-pad</title>
-    <script type="text/javascript">
-        function active(){
-            var sb = document.getElementById('searchbox');
-            if(sb.value == 'zoek...'){
-                sb.value = ''
-                sb.placeholder = 'zoek...'
-            }
-        }
-        function inactive(){
-            var sb = document.getElementById('searchbox');
-            if(sb.value == ''){
-                sb.placeholder = ''
-                sb.value = 'zoek...'
-            }
-        }
-    </script>
 </head>
 <body id="body">
 <header id="header">
     <div>
         <div id="boxshadow">
             <div class="dropdown">
-                <button class="dropbtn">Inlog</button>
+                <button class="dropbtn">Heino Voetbal</button>
                 <div class="dropdown-content">
                     <a href="#">zakkelijk</a>
-                    <a href="#">klant</a>
+                    <a href="Profiel.php">Profiel</a>
                     <a class="info" href="#">info</a>
                 </div>
             </div>
